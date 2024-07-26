@@ -1,0 +1,15 @@
+replicaCount: 1
+
+image:
+  repository: note-app
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: NodePort
+  port: 80
+
+ingress:
+  enabled: false
+
+resources: {}

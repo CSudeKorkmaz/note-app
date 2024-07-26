@@ -1,0 +1,16 @@
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.pot
+.pytest_cache
+.tox
+.env
+*.env
+*.DS_Store
+.dockerignore
+.git
+.gitignore
